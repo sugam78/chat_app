@@ -22,7 +22,6 @@ class _ChatRoomState extends State<ChatRoom> {
   TextEditingController message = TextEditingController();
   FirebaseAuth auth = FirebaseAuth.instance;
   FocusNode focusNode = FocusNode();
-  File? imageFile;
 
   @override
   void initState() {
